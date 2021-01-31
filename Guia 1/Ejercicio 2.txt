@@ -1,0 +1,31 @@
+import java.util.*;
+
+class Main {
+public static void main(String[] args) {
+   
+   //Declarar Escaner
+Scanner in = new Scanner(System.in);
+float[]notas;
+notas=new float[10];
+int mayores=0;
+int menores=0;
+
+for(int i=0;i<10;i++)
+{
+  System.out.print("\n Ingrese la nota:  "+(i+1)+"\n");
+  notas[i]=in.nextFloat();
+  if(notas[i]>=7)
+{
+  mayores++;
+}
+else
+{
+    menores++;
+}
+}
+
+System.out.print(("\n Hay "+mayores+" notas iguales o mayores a 7\n"));
+System.out.print(("\n Hay "+menores+" notas menores a 7\n"));
+
+  }
+}

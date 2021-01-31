@@ -1,0 +1,32 @@
+import java.util.*;
+
+class Main {
+public static void main(String[] args) {
+   
+   //Declarar Escaner
+Scanner in = new Scanner(System.in);
+
+System.out.print("Ingrese el primer numero ");
+int n1 = in.nextInt();
+
+
+System.out.print("Ingrese el segundo numero ");
+int n2 = in.nextInt();
+
+
+float resultado=0;
+
+
+resultado=n1%n2;
+
+if(resultado==0)
+{
+  System.out.print("El numero "+n1+" es divisible entre "+n2);
+}
+else
+{
+    System.out.print("El numero "+n1+" no es divisible entre "+n2);
+}
+
+  }
+}

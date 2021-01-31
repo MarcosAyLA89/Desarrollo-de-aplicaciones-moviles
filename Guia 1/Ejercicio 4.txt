@@ -1,0 +1,51 @@
+import java.util.*;
+
+class Main {
+public static void main(String[] args) {
+   
+   //Declarar Escaner
+Scanner in = new Scanner(System.in);
+int[]xs;
+int[]ys;
+int n=0;
+int I=0;
+int II=0;
+int III=0;
+int IV=0;
+  System.out.print("\n Ingrese el tamaño del arreglo \n");
+n=in.nextInt();
+xs=new int[n];
+ys=new int[n];
+
+for(int i=0;i<n;i++)
+{
+  System.out.print("\n Ingrese la coordenada en X del punto:  "+(i+1)+"\n");
+  xs[i]=in.nextInt();
+  System.out.print("\n Ingrese la coordenada en Y del punto:  "+(i+1)+"\n");
+  ys[i]=in.nextInt();
+  if(xs[i]>=0 && ys[i]>0)
+{
+I++;
+}
+else if(xs[i]<0 && ys[i]>0)
+{
+II++;
+}
+else if(xs[i]<0 && ys[i]<0)
+{
+III++;
+}
+else{
+  IV++;
+}
+
+
+
+}
+
+ System.out.print("\n Hay "+I+" puntos en el cuadrante I \n");
+ System.out.print("\n Hay "+II+" puntos en el cuadrante II \n");
+ System.out.print("\n Hay "+III+" puntos en el cuadrante III \n");
+ System.out.print("\n Hay "+IV+" puntos en el cuadrante IV \n");
+  }
+}

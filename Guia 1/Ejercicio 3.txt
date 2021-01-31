@@ -1,0 +1,29 @@
+import java.util.*;
+
+class Main {
+public static void main(String[] args) {
+   
+   //Declarar Escaner
+Scanner in = new Scanner(System.in);
+int[]numeros;
+int n=0;
+  System.out.print("\n Ingrese el tamaño del arreglo \n");
+n=in.nextInt();
+numeros=new int[n];
+
+
+for(int i=0;i<n;i++)
+{
+  System.out.print("\n Ingrese el numero en la posicion:  "+(i+1)+"\n");
+  numeros[i]=in.nextInt();
+  if(numeros[i]%2==0)
+{
+ System.out.print(("\n Numero Par\n"));
+}
+else
+{
+     System.out.print(("\n Numero Impar\n"));
+}
+}
+  }
+}
