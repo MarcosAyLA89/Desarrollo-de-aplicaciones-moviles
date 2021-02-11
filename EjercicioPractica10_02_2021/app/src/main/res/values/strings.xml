@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">EjercicioPractica10_02_2021</string>
+    <string name="text1">Ingrese el numero</string>
+    <string name="btn1">Calcular</string>
+</resources>
