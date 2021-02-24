@@ -1,7 +1,0 @@
-<resources>
-    <string name="app_name">Ejercicio_20%_Parcial_1</string>
-
-    <string name="txt1">Ingrese los años </string>
-    <string name="txt2">Ingrese el salario</string>
-    <string name="btn1">Calcular</string>
-</resources>
