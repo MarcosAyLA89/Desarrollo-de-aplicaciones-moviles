@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Ejercicio03</string>
+    <string name="tvTitle">Calculadora sueldo líquido</string>
+    <string name="tvName">Nombres </string>
+    <string name="tvSecond">Apellidos </string>
+    <string name="tvMonth">Horas al mes </string>
+    <string name="btncalc">Calcular </string>
+    <string name="btning">Ingresar </string>
+
+    <string name="tvemple">Datos del empleado: </string>
+    <string name="tvnombre">Nombres </string>
+    <string name="tvI">ISSS </string>
+    <string name="tvA">AFP </string>
+    <string name="tvR">Renta </string>
+    <string name="tvL">Liquido </string>
+    <string name="tvBono">Información de bonos </string>
+    <string name="tvB1">Bono 1 </string>
+    <string name="tvB2">Bono 2 </string>
+    <string name="tvB3">Bono 3 </string>
+    <string name="tvLT">Liquido total </string>
+    <string name="btnm1">Mostrar datos de empleado </string>
+    <string name="btnm2">Mostrar datos generales </string>
+
+    <string name="tvE1">Datos generales </string>
+    <string name="tvE2">Empleado Mayor </string>
+    <string name="tvE3">Empleado Menor </string>
+    <string name="tvE4">Empleados que ganan más de $300 </string>
+    <string name="tvE5">E1 </string>
+    <string name="tvE6">E2 </string>
+    <string name="tvE7">E3 </string>
+    <string name="btnBack">Regresar </string>
+</resources>

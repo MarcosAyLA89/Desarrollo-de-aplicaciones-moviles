@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Ejercicio01</string>
+    <string name="tvTitle">Calculadora de ecuaciones de segundo grado</string>
+    <string name="txtA">Ingrese el valor de "a"</string>
+    <string name="txtB">Ingrese el valor de "b"</string>
+    <string name="txtC">Ingrese el valor de "c"</string>
+    <string name="btncalc">Calcular</string>
+    <string name="tvRes">Resultado</string>
+    <string name="tvRes2">Resultado 2</string>
+</resources>
