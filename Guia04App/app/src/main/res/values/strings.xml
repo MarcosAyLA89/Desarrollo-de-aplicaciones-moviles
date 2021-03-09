@@ -1,8 +1,0 @@
-<resources>
-    <string name="app_name">Guia04App</string>
-
-
-    <string name="txt1">Ingresar Nombre</string>
-    <string name="txt2">Ingresar Edad</string>
-    <string name="btn">Aceptar</string>
-</resources>
